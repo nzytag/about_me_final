@@ -63,10 +63,6 @@ while (guesses > 0 && flag === false) {
       break;
     }
   }
-  if (!flag) {
-    input = prompt('try again');
-
-  }
 }
 if (!flag) {
   alert('nope, you are wrong!');
